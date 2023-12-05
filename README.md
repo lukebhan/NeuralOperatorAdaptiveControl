@@ -1,6 +1,6 @@
-Neural Operator-Enabled Gain Scheduling for a Transport PDE with Nonlinear Recirculation
+Adaptive Neural Operator Control for a Transport PDE with Nonlinear Recirculation
 
-The source code for the paper titled Neural Operator-Enabled Gain Scheduling for a Transport PDE with Nonlinear Recirculation (TODO: Add link).
+The source code for the paper titled Adaptive Neural-Operator Backstepping Control of a Benchmark Hyperbolic PDE (TODO: Add link).
 
 ## Sysetm Requirements
 All of the code is written in Python 3 and relies on standard packages such as numpy, Pytorch, Scipy, and the 
@@ -12,10 +12,10 @@ import statements in the Jupyter-notebooks to make sure all files are included. 
 ## Demos
 
 ### Dataset and Models
-All precomputed datasets and models are available here [Google Drive](https://drive.google.com/drive/folders/1Flg3nC032Kg3ixXM0-mSYgmjIgVng6S6?usp=sharin://drive.google.com/drive/folders/1Flg3nC032Kg3ixXM0-mSYgmjIgVng6S6?usp=sharing)
+All precomputed datasets and models are available here [Google Drive](https://drive.google.com/drive/folders/16bztrIFXy700_37LBvdguyTOf8EP0MQy?usp=sharing)
 
-### Learning mapping $\beta, u(0, t) \mapsto \mathcal{K}$
-- Please see the jupyter-notebook `gainScheduling.ipynb`. All the datasets are available in the drive, but if one ones to make their own data, the generation code is commented out in the notebook. Likewise to compute one's own models, please comment out the `load_dict` in the notebook. The figures in the paper are computed with a high resolution $dt=0.00001$, but this may take some time on others comptuers. As such, the author recommends to use $dt=0.0001$ for exploring the algorithms and playing around and then uses a finer resolution when developing figures. 
+### Adaptive Control Simulations
+- Please see the jupyter-notebook `adaptiveControl.ipynb`. All the datasets are available in the drive, but if one ones to make their own data, the generation code is commented out in the notebook. Likewise to compute one's own models, please comment out the `load_dict` in the notebook.
 
 ## Cite this work
 TODO
