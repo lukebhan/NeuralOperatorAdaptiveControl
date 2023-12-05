@@ -1,4 +1,4 @@
-Adaptive Neural Operator Control for a Transport PDE with Nonlinear Recirculation
+# Adaptive Neural Operator Control for a Transport PDE with Nonlinear Recirculation
 
 The source code for the paper titled Adaptive Neural-Operator Backstepping Control of a Benchmark Hyperbolic PDE (TODO: Add link).
 
