@@ -1,0 +1,5 @@
+torch==1.12.1
+matplotlib==3.5.1
+numpy=1.20.3
+sklearn=1.1.1
+deepxde=1.8.0
