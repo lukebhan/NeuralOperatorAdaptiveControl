@@ -1,6 +1,6 @@
 # Adaptive Neural Operator Control for a Transport PDE with Nonlinear Recirculation
 
-The source code for the paper titled Adaptive Neural-Operator Backstepping Control of a Benchmark Hyperbolic PDE (TODO: Add link).
+The source code for the paper titled [Adaptive Neural-Operator Backstepping Control of a Benchmark Hyperbolic PDE](https://arxiv.org/abs/2401.07862).
 
 ## Sysetm Requirements
 All of the code is written in Python 3 and relies on standard packages such as numpy, Pytorch, Scipy, and the 
@@ -18,7 +18,16 @@ All precomputed datasets and models are available here [Google Drive](https://dr
 - Please see the jupyter-notebook `adaptiveControl.ipynb`. All the datasets are available in the drive, but if one ones to make their own data, the generation code is commented out in the notebook. Likewise to compute one's own models, please comment out the `load_dict` in the notebook.
 
 ## Cite this work
-TODO
+```
+@misc{lamarque2024adaptive,
+      title={Adaptive Neural-Operator Backstepping Control of a Benchmark Hyperbolic PDE}, 
+      author={Maxence Lamarque and Luke Bhan and Yuanyuan Shi and Miroslav Krstic},
+      year={2024},
+      eprint={2401.07862},
+      archivePrefix={arXiv},
+      primaryClass={eess.SY}
+}
+```
 
 ## Questions
 Feel free to leave any questions in the issues of Github or email the author Luke at lbhan@ucsd.edu
